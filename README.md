@@ -9,7 +9,9 @@ A simple Vagrant development box with PHP 7 and phpmyadmin
 * phpMyAdmin (`STABLE` branch)
 
 ## Instructions
-Simply `vagrant up` from your terminal:
+This repo is intended as a starting point for other PHP development projects. As such, it is advised that you copy the `Vagrantfile` into your project's root directory, rather than cloning this repo - unless, of course, you want to clone it yourself and customise it for your own preferred project starting point.
+
+Then simply `vagrant up` from your terminal:
 ```
 $ vagrant up
 ```
