@@ -28,6 +28,7 @@ sudo apt-get install -y -q php7.0-mysql
 sudo apt-get install -y -q php7.0-mbstring
 sudo apt-get install -y -q php7.0-simplexml # composer dependency
 sudo apt-get install -y -q php7.0-curl      # composer dependency
+sudo apt-get install -y -q php7.0-zip       # composer dependency
 
 sudo rm /etc/nginx/sites-available/default
 sudo touch /etc/nginx/sites-available/default
